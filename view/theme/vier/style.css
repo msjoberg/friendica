@@ -1164,7 +1164,8 @@ border-bottom: 1px solid #D2D2D2;
 }
 
 .wall-item-container .wall-item-content img {
-  max-width: 650px;
+  /* max-width: 650px; */
+  max-width: 300px;
   /* max-width: 580px; */
 }
 .children .wall-item-container .wall-item-item .wall-item-content img {
