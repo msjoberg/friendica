@@ -41,7 +41,7 @@ function handle_pubsubhubbub() {
 
 		} else {
 			logger('queue [pubsubhubbub]: error when pushing to ' .
-				   $rr['callback_url'] . 'HTTP: ', $ret);
+				   $rr['callback_url'] . " [{$ret}]");
 
 			// we use the push variable also as a counter, if we failed we
 			// increment this until some upper limit where we give up
